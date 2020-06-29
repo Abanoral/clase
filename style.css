@@ -2,17 +2,27 @@ body,html {
   margin: 0;
   padding: 0;
 }
+header {
+  background-color: #7fffd3;
+}
+
+header div {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+nav {
+  background-color: #FF6347;
+}
+
+nav div{
+  height: 100%;
+}
 
 main {
   background-color: yellow;
-  padding: 5px 5px;
+  padding: 5px 15px;
   width: 70%;
   max-width: 70%;
-}
-
-strong {
-  background-color: grey;
-  width: 30%;
 }
 
 section {
@@ -22,14 +32,30 @@ section {
 
 article {
   background-color: orange;
-
 }
 
-header {
-  background-color: #7fffd3;
+aside {
+  background-color: grey;
+  width: 30%;
 }
-
 footer{
   background-color:#06FEFF;
+  height: 100%;
 }
 
+h1,
+h2, h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+header,
+footer, 
+nav{
+    min-height: 100px;
+}
+
+footer p {
+  margin: 0;
+}
